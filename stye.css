@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+      font-family: "Poppins", sans-serif;
+
+}
+
+#banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), #009688),url('./Assets/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+.banner-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+}
+.banner-text h1{
+    font-size: 130px;
+      font-family: "Kaushan Script", cursive;
+
+
+}
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
+    
+}
+.banner-btn{
+    margin: 70px auto 0;
+     align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.banner-btn a {
+  width: 150px;
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 12px 0;
+  color: #fff;
+  border: 0.5px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: color 0.5s;
+}
+
+.banner-btn a span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: white;
+  transition: 0.3s ease;
+  z-index: -1; 
+}
+
+.banner-btn a:hover span {
+  width: 100%;
+}
+
+.banner-btn a:hover {
+  color: black;
+}
+
+#sideNav {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background: #009688;
+    z-index: 2;
+}
+nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
